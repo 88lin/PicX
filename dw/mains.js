@@ -683,9 +683,9 @@ const emojiForAnimal = (name = '') => {
         </p>
       </div>
       <div class="np-shop-box" aria-label="官方正版支持渠道">
-        <div class="np-shop-label">推荐您通过以下官方渠道获取本站信息</div>
+        <div class="np-shop-label">通过官方渠道获取本站信息</div>
         <p class="np-shop-desc">
-          认准官方账号，避免上当受骗。如发现可疑倒卖链接，也欢迎对比后进行举报。
+          请认准官方账号，避免上当受骗。
         </p>
         <div class="np-shop-actions">
           <a href="${XHS_URL}"
