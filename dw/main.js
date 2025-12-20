@@ -684,22 +684,19 @@ const emojiForAnimal = (name = '') => {
       </div>
       <div class="np-shop-box" aria-label="官方正版支持渠道">
         <div class="np-shop-label">通过官方渠道获取本站信息</div>
-        <p class="np-shop-desc">
-          请认准官方账号，避免上当受骗。
-        </p>
         <div class="np-shop-actions">
           <a href="${XHS_URL}"
              target="_blank" rel="noopener"
              class="np-btn np-btn-shop np-btn-xhs"
              aria-label="打开小红书官方账号">
-            <img src="xiaohongshu.svg" alt="" class="np-btn-icon" />
+            <img src="https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/xiaohongshu.b9cpfgij9.svg" alt="" class="np-btn-icon" />
             <span>小红书官方账号</span>
           </a>
           <a href="${XY_URL}"
              target="_blank" rel="noopener"
              class="np-btn np-btn-shop np-btn-xy"
              aria-label="打开闲鱼官方账号">
-            <img src="xianyu.svg" alt="" class="np-btn-icon" />
+            <img src="https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/xianyu.5xb33ahtcj.svg" alt="" class="np-btn-icon" />
             <span>闲鱼官方账号</span>
           </a>
         </div>
