@@ -573,3 +573,22 @@
         searchError.style.display = 'none';
 
     }
+
+    // 横幅通知逻辑
+    const noticeBanner = document.getElementById('notice-banner');
+    const noticeClose = document.getElementById('notice-close');
+    
+    if (noticeBanner) {
+        // 检查是否已关闭，如果没有则显示
+        if (!localStorage.getItem('vip_notice_closed')) {
+            noticeBanner.style.display = 'flex';
+        }
+        
+        // 点击关闭按钮事件
+        if (noticeClose) {
+            noticeClose.addEventListener('click', function() {
+                noticeBanner.style.display = 'none';
+                localStorage.setItem('vip_notice_closed', 'true');
+            });
+        }
+    }
